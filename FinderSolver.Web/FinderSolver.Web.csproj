@@ -160,6 +160,12 @@
     <Folder Include="Models\" />
     <Folder Include="Views\Home\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FinderSolver.Core\FinderSolver.Core.csproj">
+      <Project>{378c7e6b-d5cc-4316-a80a-7ecceebe0afe}</Project>
+      <Name>FinderSolver.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
