@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinderSolver.Core", "Finder
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinderSolver.EFInfrastructure", "FinderSolver.EFInfrastructure\FinderSolver.EFInfrastructure.csproj", "{81E53831-50D7-40D1-9E20-C548868CC33E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinderSolver.WebApi", "FinderSolver.WebApi\FinderSolver.WebApi.csproj", "{C77E24B0-D156-4AE3-BAA1-C2B5FF319F0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{81E53831-50D7-40D1-9E20-C548868CC33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E53831-50D7-40D1-9E20-C548868CC33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E53831-50D7-40D1-9E20-C548868CC33E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77E24B0-D156-4AE3-BAA1-C2B5FF319F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77E24B0-D156-4AE3-BAA1-C2B5FF319F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77E24B0-D156-4AE3-BAA1-C2B5FF319F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77E24B0-D156-4AE3-BAA1-C2B5FF319F0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
