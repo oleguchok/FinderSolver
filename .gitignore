@@ -240,3 +240,5 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/FinderSolver.KoClient/.vscode
+/FinderSolver.KoClient/wwwroot/lib

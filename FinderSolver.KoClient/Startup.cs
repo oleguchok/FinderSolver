@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
 
 namespace FinderSolver.KoClient
@@ -21,8 +22,6 @@ namespace FinderSolver.KoClient
                 app.UseDeveloperExceptionPage();
             }
 
-            
-
             app.Use(async (context, next) =>
             {
                 await next();
@@ -38,6 +37,13 @@ namespace FinderSolver.KoClient
             });
 
             app.UseStaticFiles();
+
+            app.UseFileServer(new FileServerOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(env.ContentRootPath, "node_modules")),
+                RequestPath = "/node_modules",
+                EnableDirectoryBrowsing = false
+            });
         }
     }
 }
