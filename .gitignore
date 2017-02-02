@@ -242,3 +242,4 @@ ModelManifest.xml
 .fake/
 /FinderSolver.KoClient/.vscode
 /FinderSolver.KoClient/wwwroot/lib
+/FinderSolver.KoClient/bower_components/knockout

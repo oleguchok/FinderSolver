@@ -1,8 +1,17 @@
 {
-    "name": "asp.net",
-    "private": true,
-    "dependencies": {
-        "knockout": "~3.4.1",
-        "bootstrap": "latest"
+  "name": "asp.net",
+  "private": true,
+  "dependencies": {
+    "knockout": "^3.4.0"
+  },
+    "install": {
+        "path": "wwwroot/lib",
+        "sources": {
+            "knockout": {
+                "mapping": [{
+                    "bower_components/knockout/dist/knockout.debug.js": "knockout.js"
+                }]
+            }
+        }
     }
 }
