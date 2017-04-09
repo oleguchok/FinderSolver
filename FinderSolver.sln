@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinderSolver.Core", "Finder
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinderSolver.EFInfrastructure", "FinderSolver.EFInfrastructure\FinderSolver.EFInfrastructure.csproj", "{81E53831-50D7-40D1-9E20-C548868CC33E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinderSolver.WebApi", "FinderSolver.WebApi\FinderSolver.WebApi.csproj", "{C77E24B0-D156-4AE3-BAA1-C2B5FF319F0B}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FinderSolver.Client", "FinderSolver.Client\FinderSolver.Client\FinderSolver.Client.xproj", "{5E0EF977-F42E-4051-A5CC-A6654E09A807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
