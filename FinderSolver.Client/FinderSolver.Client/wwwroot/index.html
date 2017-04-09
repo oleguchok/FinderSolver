@@ -3,10 +3,28 @@
 
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Finder Solver</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="/lib/bootstrap/bootstrap.min.css" />
 </head>
 
 <body data-ng-app="finderSolver">
+
+    <a ui-sref="login">Login</a>
+
+    <div class="container">
+        <div ui-view></div>
+    </div>
+
+    <!-- Library scripts-->
+    <script src="/lib/angular/angular.min.js"></script>
+    <script src="/lib/angular-ui-router/angular-ui-router.min.js"></script>
+
+    <!-- app scripts -->
+    <script src="/app/app.module.js"></script>
+    <script src="/app/login/login.module.js"></script>
+    <script src="/app/login/login.component.js"></script>
 
 </body>
 
