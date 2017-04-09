@@ -242,3 +242,7 @@ ModelManifest.xml
 .fake/
 
 bower_components
+**/wwwroot/lib
+
+**/Migrations/*.Designer.cs
+**/Migrations/*.resx
