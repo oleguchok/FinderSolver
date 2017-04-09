@@ -9,6 +9,13 @@
     function login() {
 
         function loginController() {
+            var vm = this;
+
+            vm.loginTo = loginTo;
+
+            function loginTo() {
+                constole.log('x');
+            };
 
         }
 
