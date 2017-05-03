@@ -244,5 +244,11 @@ ModelManifest.xml
 bower_components
 **/wwwroot/lib
 
+#Rider
+.idea/
+
+#VSCode
+**/.vscode
+
 **/Migrations/*.Designer.cs
 **/Migrations/*.resx
