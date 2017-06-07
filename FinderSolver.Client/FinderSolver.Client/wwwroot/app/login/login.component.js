@@ -14,13 +14,14 @@
             vm.loginTo = loginTo;
 
             function loginTo() {
-                constole.log('x');
+                console.log('x');
             };
 
         }
 
         return {
             controller: loginController,
+            controllerAs: 'vm',
             templateUrl: "app/login/login.template.html"
         }
     }

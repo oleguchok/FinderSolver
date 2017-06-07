@@ -5,19 +5,13 @@
         .module('finderSolver')
         .config(routerConfig)
 
-    function routerConfig($stateProvider, $urlRouterProvider) {
+    function routerConfig($routeProvider) {
 
-        $urlRouterProvider.otherwise('/login');
-
-        $stateProvider
-
-            .state('home', {
-                url: '/home',
-                templateUrl: 'index.html'
+        $routeProvider
+            .when('/login', {
+                template: '<login></login>'
             })
-
-            .state('login', {
-                url: '/login',
+            .otherwise({
                 template: '<login></login>'
             });
     }

@@ -11,16 +11,19 @@
 
 <body data-ng-app="finderSolver">
 
-    <a ui-sref="login">Login</a>
-
+    <header>
+        <nav>
+            <a href="#login">Login</a>
+        </nav>
+    </header>
+    
     <div class="container">
-        <div ui-view></div>
+        <div ng-view></div>
     </div>
 
     <!-- Library scripts-->
-    <script src="/lib/jquery.min.js"></script>
     <script src="/lib/angular.min.js"></script>
-    <script src="/lib/angular-ui-router.min.js"></script>
+    <script src="/lib/angular-route.min.js"></script>
 
     <!-- app scripts -->
     <script src="/app/app.module.js"></script>

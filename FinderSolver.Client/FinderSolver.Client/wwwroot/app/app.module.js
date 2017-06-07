@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('finderSolver', [
-        'ui.router',
+        'ngRoute',
         'login'
     ]);
 })();
