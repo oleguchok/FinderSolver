@@ -7,5 +7,9 @@
     "gulp": "3.9.1",
     "gulp-debug": "^3.1.0",
     "gulp-main-bower-files": "^1.6.2"
+  },
+  "dependencies": {
+    "gulp-inject": "^4.2.0",
+    "main-bower-files": "^2.13.1"
   }
 }

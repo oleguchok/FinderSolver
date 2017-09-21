@@ -1,0 +1,17 @@
+{
+  "name": "finderSolver.client",
+  "dependencies": {
+    "angular": "latest",
+    "angular-route": "latest",
+    "bootstrap": "latest",
+    "ngstorage": "^0.3.11",
+    "angular-flash-alert": "^2.4.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css"
+      ]
+    }
+  }
+}

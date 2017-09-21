@@ -1,0 +1,23 @@
+{
+  "name": "findersolver.client",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vk-api-angular": "^1.2.0"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-debug": "^3.1.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-inject-string": "^1.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-main-npm-files": "^1.0.5",
+    "gulp-natural-sort": "^0.1.1",
+    "gulp-print": "^2.0.1",
+    "main-bower-files": "^2.13.1"
+  }
+}

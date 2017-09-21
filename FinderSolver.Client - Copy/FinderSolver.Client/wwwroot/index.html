@@ -13,17 +13,18 @@
 
     <header>
         <nav>
-            <a href="#login">Login</a>
+            <a ui-sref="login">Login</a>
         </nav>
     </header>
     
-    <div class="container">
-        <div ng-view></div>
-    </div>
+    <div ui-view class="container"></div>
 
     <!-- Library scripts-->
     <script src="/lib/angular.js"></script>
-    <script src="/lib/angular-route.min.js"></script>
+    <script src="/lib/angular-ui-router.js"></script>
+    <script src="/lib/vk-api-angular.js"></script>
+    <script src="https://vk.com/js/api/openapi.js?146" type="text/javascript"></script>
+    
 
     <!-- app scripts -->
     <script src="/app/app.module.js"></script>

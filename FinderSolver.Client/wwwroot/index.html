@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Finder Solver</title>
+    
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/angular-flash.css">
+    <link rel="stylesheet" href="lib/bootstrap.css">
+    <!-- endinject -->
+</head>
+
+<body data-ng-app="finderSolver">
+    
+    <div>
+        <flash-message></flash-message>
+    </div>
+    <div ng-view class="container">
+        
+    </div>
+
+    <script src="https://vk.com/js/api/openapi.js?146" type="text/javascript"></script>
+    <!-- bower:js -->
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-flash.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/ngStorage.js"></script>
+    <script src="lib/vk-api-angular.js"></script>
+    <!-- endinject -->    
+    
+    <!-- inject:js -->
+    <script src="app/app.js"></script>
+    <script src="app/services/flash.service.js"></script>
+    <script src="app/services/auth.service.js"></script>
+    <script src="app/login/login.module.js"></script>
+    <script src="app/login/login.controller.js"></script>
+    <script src="app/home/home.controller.js"></script>
+    <script src="app/app.router.js"></script>
+    <!-- endinject -->
+
+</body>
+
+</html>

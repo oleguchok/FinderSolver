@@ -17,6 +17,15 @@
                         failure(error);
                     });
         }
+
+        this.jsonp = function jsonp(url, config, success, failure) {
+            return $http.jsonp(url, config)
+                    .then(function (result) {
+                        success(result);
+                    }, function (error) {
+                        failure(error);
+                    });
+        }
     }
 
 })();
